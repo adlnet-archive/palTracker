@@ -1,0 +1,21 @@
+{
+  "name": "trackingServer",
+  "version": "0.0.0",
+  "description": "Track user URLs for PAL reccomendation",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "express": "~4.0.0",
+    "hogan-express": "~0.5.2",
+    "cookie-parser": "~1.0.1",
+    "body-parser": "~1.0.2",
+    "method-override": "~1.0.0",
+    "nedb": "~0.10.5",
+    "guid": "0.0.12"
+  }
+}
